@@ -15,13 +15,7 @@ public class turnCOntroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float p1Moves = Player1.GetComponent<playerMove>().movimentosRestantes ;
-        
-        float p2Moves = Player2.GetComponent<playerMove>().movimentosRestantes ;
-        if(p1Moves ==0 && p2Moves ==0){
-            Player1.GetComponent<playerMove>().turnState = 2;
-            Player2.GetComponent<playerMove>().turnState = 2;
-        }
+       
         
     }
 }

@@ -1,0 +1,284 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/roots/My project (3)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50509
+Successfully changed project path to: D:/roots/My project (3)
+D:/roots/My project (3)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [47736] Host "[IP] 172.25.176.1 [Port] 0 [Flags] 2 [Guid] 3628465765 [EditorId] 3628465765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G54P02N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [47736] Host "[IP] 172.25.176.1 [Port] 0 [Flags] 2 [Guid] 3628465765 [EditorId] 3628465765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-G54P02N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 93.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/unity/editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/roots/My project (3)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'D:/unity/editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004138 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.537 seconds
+Domain Reload Profiling:
+	ReloadAssembly (537ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004141 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\roots\My project (3)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\roots\My project (3)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3364 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3826.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 3.439300 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.111100 ms MarkObjects: 2.923800 ms  DeleteObjects: 0.112500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181582.850394 seconds.
+  path: Assets/raizes/Ants/ants1.png
+  artifactKey: Guid(ffaed22b6531ea741b422f63d7b5ba2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/Ants/ants1.png using Guid(ffaed22b6531ea741b422f63d7b5ba2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983c8e185280a7a48023b70e94e93f1c') in 0.132585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 299.372049 seconds.
+  path: Assets/raizes/root1/root2_00001.png
+  artifactKey: Guid(00b1e14956d158e4581ce57741927ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00001.png using Guid(00b1e14956d158e4581ce57741927ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73739ec487a670890f73adca198e47b2') in 0.012275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/raizes/root1/root2_00012.png
+  artifactKey: Guid(ef870870ec516664f8a5999bdfd8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00012.png using Guid(ef870870ec516664f8a5999bdfd8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375e023a6c27ef4bf818f400cd5a3f8c') in 0.011645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/raizes/root1/root3_00005.png
+  artifactKey: Guid(8313d802d9ef0fb4d927546472376555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00005.png using Guid(8313d802d9ef0fb4d927546472376555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd3f6fa3fb92a343e309ea7c310a8b1') in 0.010932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/raizes/root1/root3_00013.png
+  artifactKey: Guid(eb358872ff568c24681d243a82f5c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00013.png using Guid(eb358872ff568c24681d243a82f5c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949480e6784f0496f994ae9826ce9eb9') in 0.009316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/root1/root2_00006.png
+  artifactKey: Guid(7896507f2aaf14c488a46734b9e4b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00006.png using Guid(7896507f2aaf14c488a46734b9e4b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354d1ceef973b961945f6cd26fa691f5') in 0.009203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/raizes/root1/root3_00002.png
+  artifactKey: Guid(a236561715285264884164f4ffaf19d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00002.png using Guid(a236561715285264884164f4ffaf19d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098af2660fe94d24d92ea6a039b7987') in 0.009702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/raizes/root1/root3_00012.png
+  artifactKey: Guid(69b70bfaf1073e44b8e14c91e5c45937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00012.png using Guid(69b70bfaf1073e44b8e14c91e5c45937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586400e2b58c7ef5a4a3c90f618028b4') in 0.010369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/raizes/root1/root2_00008.png
+  artifactKey: Guid(c9fc396cf451be443bcd87a41f0d0307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00008.png using Guid(c9fc396cf451be443bcd87a41f0d0307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07928a99753cbd9c08470488044bb822') in 0.008364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/raizes/root1/root3_00010.png
+  artifactKey: Guid(6f4444f8ec23f5e4ab86161e341e597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00010.png using Guid(6f4444f8ec23f5e4ab86161e341e597c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9d380b20cd3435551f2e8fd0ebfe06') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/raizes/root1/root2_00005.png
+  artifactKey: Guid(3262f2759bb2b134882d6353441ffaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00005.png using Guid(3262f2759bb2b134882d6353441ffaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce62f50ba8da070447d7afc0bec1ddc7') in 0.010071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/raizes/root1/root3_00006.png
+  artifactKey: Guid(8a60646a8de11cf4abb37833601ff783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00006.png using Guid(8a60646a8de11cf4abb37833601ff783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214c0c64569599b919eee9ceb90ab7b6') in 0.009329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/root1/root3_00008.png
+  artifactKey: Guid(ddf3cd70c1311f544987f71421707157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00008.png using Guid(ddf3cd70c1311f544987f71421707157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a8edc77332c700c93f4958bd2d1b87') in 0.016806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/raizes/root1/root3_00001.png
+  artifactKey: Guid(d9aa772beb9871240ab0d5ebca49991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00001.png using Guid(d9aa772beb9871240ab0d5ebca49991c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6278ba2d88377f70f2a80e692124f245') in 0.010643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/raizes/root1/root2_00016.png
+  artifactKey: Guid(adbce78e9c146984494e3a85a8ec004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00016.png using Guid(adbce78e9c146984494e3a85a8ec004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73215caa40e8bb6b6a58e7148cb8236') in 0.011113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/raizes/root1/root3_00003.png
+  artifactKey: Guid(4e133f725dbf1214a96b9f8402551aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00003.png using Guid(4e133f725dbf1214a96b9f8402551aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387bbb2d51dbf2db874eccf3dcd59e1e') in 0.011510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/raizes/root1/root2_00013.png
+  artifactKey: Guid(d88b32341abdf2a47937a22bd32ef86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00013.png using Guid(d88b32341abdf2a47937a22bd32ef86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f503241710e30ee7b16fe39fc7f1026') in 0.008623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/raizes/root1/root2_00009.png
+  artifactKey: Guid(6970081b9c21f9a4696d7a87dd2456d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root2_00009.png using Guid(6970081b9c21f9a4696d7a87dd2456d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872b05ab4a6c6b435f338d420078e2ff') in 0.011265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/raizes/root1/root3_00009.png
+  artifactKey: Guid(280b16267c5d5064b8488c5435046fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/root1/root3_00009.png using Guid(280b16267c5d5064b8488c5435046fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb1508a5516525bae6f33d088358de2') in 0.009786 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -13,17 +13,18 @@ public class playerMove : MonoBehaviour
     public int Player = 1;
     private Vector2 xVector = Vector2.zero;
     private Vector2 yVector = Vector2.zero;
-    public int LogTerm = 0;
-    public int movimentos = 3;
-    public int movimentosRestantes = 0;
+    public float  LogTerm = 0;
+    public float  movimentos = 0;
     public int imunity = 0;
+    public int formiga = 0;
+    private int rootCounter = 2;
     // Start is called before the first frame update
     void Start()
     {
-        movimentosRestantes = movimentos;
         LastSpownd = Node;
         CurSpown = Instantiate(Node, Roots.transform); 
         CurSpown.transform.position  = CurSpown.transform.position+ new Vector3(0,-1,0);
+        CurSpown.name = "Root"+rootCounter.ToString();
         turnState = 1;
     }
     
@@ -46,36 +47,34 @@ public class playerMove : MonoBehaviour
 
             //CurSpown.transform.Rotate(new Vector3( 0,0, ang)); 
             
-            if(Input.GetKeyUp("joystick "+Player+" button 2") && movimentosRestantes > 0){
-                
-                if(movimentosRestantes != 0){
-                    LastSpownd=CurSpown ;
-                    LastSpownd.GetComponent<Collider2D>().enabled = true;
-                    
-                    CurSpown = Instantiate(Node, Roots.transform); 
-                    CurSpown.transform.position  = LastSpownd.transform.GetChild(1).transform.position;
-                    CurSpown.transform.Rotate(LastSpownd.transform.GetChild(1).transform.eulerAngles); 
-                    movimentosRestantes = movimentosRestantes-1;
-                    
-                    
+            if(Input.GetKeyUp("joystick "+Player+" button 2") ){
+                if(LogTerm > 1){
+                    LogTerm = LogTerm-1;
                 }
+                if(LogTerm ==0){
+                    movimentos = 0;
+                }
+                
+                rootCounter = rootCounter +1;
+                LastSpownd.GetComponent<Collider2D>().enabled = false;
+                LastSpownd = CurSpown ;
+                LastSpownd.GetComponent<Collider2D>().enabled = true;
+                LastSpownd.transform.localScale += new Vector3(0,movimentos,0);
+                CurSpown = Instantiate(Node, Roots.transform); 
+                CurSpown.name = "Root"+rootCounter;
+                CurSpown.transform.position  = LastSpownd.transform.GetChild(1).transform.position;
+                CurSpown.transform.Rotate(LastSpownd.transform.GetChild(1).transform.eulerAngles); 
+              
+                    
+                    
+                
                 
             }
             
             
            
         }
-        if(turnState == 2){
-
-            if(LogTerm ==0){
-                movimentos = 3;
-            }
-            if(LogTerm >0){
-                LogTerm = LogTerm-1;
-            }
-            movimentosRestantes = movimentos;
-            turnState = 1;
-        }
+        
         
     }
 }
