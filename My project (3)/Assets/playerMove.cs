@@ -9,30 +9,28 @@ public class playerMove : MonoBehaviour
     public GameObject Node= null;
     private GameObject LastSpownd = null;
     private GameObject CurSpown = null;
-    public int State = 0;
+    public int turnState = 0;
     public int Player = 1;
     private Vector2 xVector = Vector2.zero;
     private Vector2 yVector = Vector2.zero;
-    private int LogTerm = 0;
-    private int movimentos = 3;
-    private int movimentosRestantes = 0;
+    public int LogTerm = 0;
+    public int movimentos = 3;
+    public int movimentosRestantes = 0;
+    public int imunity = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        movimentosRestantes = movimentos;
+        LastSpownd = Node;
+        CurSpown = Instantiate(Node, Roots.transform); 
+        CurSpown.transform.position  = CurSpown.transform.position+ new Vector3(0,-1,0);
+        turnState = 1;
     }
     
     // Update is called once per frame
     void Update()
     {
-        if(State == 0){
-            movimentosRestantes = movimentos;
-            LastSpownd = Node;
-            CurSpown = Instantiate(Node, Roots.transform); 
-            CurSpown.transform.position  = CurSpown.transform.position+ new Vector3(0,-1,0);
-            State = 1;
-        }
-        if(State == 1){
+        if(turnState == 1){
             
             float horizontalInput = Input.GetAxis ("P"+Player+"_Horizontal");
             float vertialInput = 1; 
@@ -52,25 +50,31 @@ public class playerMove : MonoBehaviour
                 
                 if(movimentosRestantes != 0){
                     LastSpownd=CurSpown ;
+                    LastSpownd.GetComponent<Collider2D>().enabled = true;
+                    
                     CurSpown = Instantiate(Node, Roots.transform); 
                     CurSpown.transform.position  = LastSpownd.transform.GetChild(1).transform.position;
                     CurSpown.transform.Rotate(LastSpownd.transform.GetChild(1).transform.eulerAngles); 
                     movimentosRestantes = movimentosRestantes-1;
+                    
+                    
                 }
                 
             }
-            if(movimentosRestantes ==0){
-                State = 2;
-            }
+            
             
            
         }
-        if(State == 2){
+        if(turnState == 2){
+
             if(LogTerm ==0){
                 movimentos = 3;
             }
+            if(LogTerm >0){
+                LogTerm = LogTerm-1;
+            }
             movimentosRestantes = movimentos;
-            State = 1;
+            turnState = 1;
         }
         
     }
