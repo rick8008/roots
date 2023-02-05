@@ -1,0 +1,1274 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16343 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+I:\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+I:/Users/Public/Documents/Trabalhos 2022/Unity/My project (1)
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+59323
+Successfully changed project path to: I:/Users/Public/Documents/Trabalhos 2022/Unity/My project (1)
+I:/Users/Public/Documents/Trabalhos 2022/Unity/My project (1)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17912] Host "[IP] 10.150.0.236 [Port] 0 [Flags] 2 [Guid] 1954561215 [EditorId] 1954561215 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RN6DC7T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17912] Host "[IP] 10.150.0.236 [Port] 0 [Flags] 2 [Guid] 1954561215 [EditorId] 1954561215 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RN6DC7T) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 173.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path I:/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/Users/Public/Documents/Trabalhos 2022/Unity/My project (1)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   NVIDIA
+    VRAM:     2006 MB
+    Driver:   31.0.15.2802
+Initialize mono
+Mono path[0] = 'I:/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'I:/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'I:/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: I:/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: I:/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010831 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 146.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015147 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Users\Public\Documents\Trabalhos 2022\Unity\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Users\Public\Documents\Trabalhos 2022\Unity\My project (1)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1980ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1541ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (527ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (681ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (437ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3829.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 6.120600 ms (FindLiveObjects: 0.575500 ms CreateObjectMapping: 0.214700 ms MarkObjects: 5.175200 ms  DeleteObjects: 0.152900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37171.500301 seconds.
+  path: Assets/raizes/char/beterraba_00002.png
+  artifactKey: Guid(ffe1538112280f44387815783d418435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00002.png using Guid(ffe1538112280f44387815783d418435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c903929d7e2cbde82fcaa560dc98fde3') in 0.454439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.735193 seconds.
+  path: Assets/raizes/char/beterraba_00002.png
+  artifactKey: Guid(ffe1538112280f44387815783d418435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00002.png using Guid(ffe1538112280f44387815783d418435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3396d2b245b12c484a9dc8ccdde9b4f0') in 0.044757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/raizes/char/beterraba_00009.png
+  artifactKey: Guid(9ea2897a658f3c145ba99733510adcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00009.png using Guid(9ea2897a658f3c145ba99733510adcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb18ac097c7d818816eac2200cb06dc5') in 0.031569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/beterraba_00015.png
+  artifactKey: Guid(2dcd3ecccf0f45949bbbceb8b75e2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00015.png using Guid(2dcd3ecccf0f45949bbbceb8b75e2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16f5f43a861b010a99c1bb6e47cad3a') in 0.028915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/raizes/char/beterraba_00022.png
+  artifactKey: Guid(9ab5a3f8492347549b2dea78a893251f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00022.png using Guid(9ab5a3f8492347549b2dea78a893251f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47242cce8a5aa6a7587a91bedda56bd') in 0.024522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/raizes/char/beterraba_00019.png
+  artifactKey: Guid(4317bb048ae32024186fc77cb8dcafab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00019.png using Guid(4317bb048ae32024186fc77cb8dcafab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c5d11af24f9313a027a1035c2083d9') in 0.028273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/raizes/char/beterraba_00007.png
+  artifactKey: Guid(5f4aa187936e6d84dbf49d4231dd873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00007.png using Guid(5f4aa187936e6d84dbf49d4231dd873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08002b26bf2d11243eeafa6319615ce') in 0.046634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/raizes/char/beterraba_00021.png
+  artifactKey: Guid(b87b33c85f2f2f74282c21bdc8fa1acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00021.png using Guid(b87b33c85f2f2f74282c21bdc8fa1acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fad98ae2167bd244c796abd204e6f90') in 0.025002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/raizes/char/beterraba_00012.png
+  artifactKey: Guid(717aa202ea78d1e4ab690d3d6938cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00012.png using Guid(717aa202ea78d1e4ab690d3d6938cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcf309e57b7d73659bb25c51768935d') in 0.035289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.990986 seconds.
+  path: Assets/raizes/char/beterraba_00002.png
+  artifactKey: Guid(ffe1538112280f44387815783d418435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00002.png using Guid(ffe1538112280f44387815783d418435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b503d89cc24e9de99c85b115bd69060c') in 0.257572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/raizes/char/beterraba_00015.png
+  artifactKey: Guid(2dcd3ecccf0f45949bbbceb8b75e2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00015.png using Guid(2dcd3ecccf0f45949bbbceb8b75e2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef893e4752709ef5abf2f4f881e52cd1') in 0.062352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/raizes/char/beterraba_00014.png
+  artifactKey: Guid(2a6105bc08d1e934784349da77abfa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00014.png using Guid(2a6105bc08d1e934784349da77abfa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed527fd5f5af8a0bde199298b295b5a2') in 0.070081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/raizes/char/beterraba_00010.png
+  artifactKey: Guid(becc971e7347951468ab604b21a97a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00010.png using Guid(becc971e7347951468ab604b21a97a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996bf19d21e3ef32f15c7cdc7a916555') in 0.063237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/raizes/char/beterraba_00011.png
+  artifactKey: Guid(dcf3ee5cdb5f4cf43a8f9c95443df9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00011.png using Guid(dcf3ee5cdb5f4cf43a8f9c95443df9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aabea37164ca2bd8ce816af78dd1a8') in 0.075859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/raizes/char/beterraba_00012.png
+  artifactKey: Guid(717aa202ea78d1e4ab690d3d6938cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/beterraba_00012.png using Guid(717aa202ea78d1e4ab690d3d6938cc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d416b7531de0a36d276fc45d2c7a4d7') in 0.067392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.177025 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00001.png
+  artifactKey: Guid(9f9af8c3914a16a47b194b5ccc39e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00001.png using Guid(9f9af8c3914a16a47b194b5ccc39e14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378304effb66896b77fdf851812e870e') in 0.114171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00021.png
+  artifactKey: Guid(8f18c76487b22eb4b96770ce751ba1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00021.png using Guid(8f18c76487b22eb4b96770ce751ba1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e02adc05638809dcd766dfe44a99a2') in 0.027683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00018.png
+  artifactKey: Guid(56d85c24f9b8d6b40a5481e6b5a995a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00018.png using Guid(56d85c24f9b8d6b40a5481e6b5a995a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de7b908d931992c89cf1561b4977cd8') in 0.035350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00017.png
+  artifactKey: Guid(f9d9329a6e903ac499d24a201266abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00017.png using Guid(f9d9329a6e903ac499d24a201266abea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45974e157b1981fcb8dc8e71fc0a151a') in 0.032324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00031.png
+  artifactKey: Guid(7494ce5efa30f8943aedbaeca8c06ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00031.png using Guid(7494ce5efa30f8943aedbaeca8c06ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e05f0f74f4c14b3a14268d564a4f4e') in 0.041157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00011.png
+  artifactKey: Guid(998597b28e9978b43a5afc6ff852f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00011.png using Guid(998597b28e9978b43a5afc6ff852f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2de275891ae0b37549e3629df9cfb8') in 0.028666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00004.png
+  artifactKey: Guid(b3e9cb9d13a850e45b9f7ab83968da02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00004.png using Guid(b3e9cb9d13a850e45b9f7ab83968da02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2266aead97bbac0abeb5a53e8c3c50c9') in 0.041407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00050.png
+  artifactKey: Guid(3f79e7436722e8b42aa552e46fdb9173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00050.png using Guid(3f79e7436722e8b42aa552e46fdb9173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec244804b73e610ee0c38c4d245725fa') in 0.026831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00023.png
+  artifactKey: Guid(330644ffe32ac744ea48503ae883c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00023.png using Guid(330644ffe32ac744ea48503ae883c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9038c26bb8c0c8c7aefcab9186ed72e') in 0.024627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00054.png
+  artifactKey: Guid(9c574ec3f077cb246b5bc30c1cc95782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00054.png using Guid(9c574ec3f077cb246b5bc30c1cc95782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d230f65e760e11094a53e308e4167c4') in 0.028640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00006.png
+  artifactKey: Guid(b12d9725f3e9d1f409ba7d82718dc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00006.png using Guid(b12d9725f3e9d1f409ba7d82718dc592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b2a96ed283b9c324f293ee55812b4') in 0.033802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00040.png
+  artifactKey: Guid(3288e29e0069cfa49a376be75cbcad17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00040.png using Guid(3288e29e0069cfa49a376be75cbcad17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9408a7a48e546e9374fbd6a9217bc98') in 0.053566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001613 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00047.png
+  artifactKey: Guid(3ad212282ec7050439f5f445c8814a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00047.png using Guid(3ad212282ec7050439f5f445c8814a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaad9f983bb6e9717f68499295ab8503') in 0.033675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00034.png
+  artifactKey: Guid(b316130c4b2637a46a6532ac814b690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00034.png using Guid(b316130c4b2637a46a6532ac814b690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d307cf3dc19841a5cbe2b798ea7866') in 0.030797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00028.png
+  artifactKey: Guid(eff3dea0051353a4da338be4f7168cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00028.png using Guid(eff3dea0051353a4da338be4f7168cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26e72c3ee72d7ea4f08bcbe148d5d72') in 0.023165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00045.png
+  artifactKey: Guid(0ce1566c41df8bf49b5cbd8c08060cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00045.png using Guid(0ce1566c41df8bf49b5cbd8c08060cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd844fed805324674189ac62644ef6082') in 0.027060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00049.png
+  artifactKey: Guid(2ba58141a475d3e43802d60988364504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00049.png using Guid(2ba58141a475d3e43802d60988364504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07efc2d4fcb16c33020338d52ba4a561') in 0.020160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00013.png
+  artifactKey: Guid(0158cd35ef789354996a0b1c5832ec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00013.png using Guid(0158cd35ef789354996a0b1c5832ec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1011bf25c329bce73b0157fad6ba3108') in 0.026677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00012.png
+  artifactKey: Guid(b1dd6cf9377aebd4f9d00e6232d20f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00012.png using Guid(b1dd6cf9377aebd4f9d00e6232d20f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619df46ee4fb5ace630c7350cd8f2203') in 0.029018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00025.png
+  artifactKey: Guid(af0e1ce9231a1fe4b830abbff1a7e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00025.png using Guid(af0e1ce9231a1fe4b830abbff1a7e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324caea593726f977d66f7178222b17') in 0.026333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00048.png
+  artifactKey: Guid(e135ff23a20e12f448ff7464ca3d020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00048.png using Guid(e135ff23a20e12f448ff7464ca3d020a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118e3b61c92b870d7f36659e63d2b2b2') in 0.029386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003738 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00024.png
+  artifactKey: Guid(a4b5a40388c62d34aaea0fcabe189b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00024.png using Guid(a4b5a40388c62d34aaea0fcabe189b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f95433fa6f34995491fe3765a34a09') in 0.039245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002712 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00035.png
+  artifactKey: Guid(e33b1f1c73f21fe4e99ae641b303eec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00035.png using Guid(e33b1f1c73f21fe4e99ae641b303eec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30641d69d564d320588c931e67693673') in 0.023914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013863 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00005.png
+  artifactKey: Guid(4485be47f70c6934ebaca99f397debfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00005.png using Guid(4485be47f70c6934ebaca99f397debfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c40189d6b593629dffa1b9020664a3e') in 0.021082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00032.png
+  artifactKey: Guid(044b1ca249ff68e418fa7d4173bd0a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00032.png using Guid(044b1ca249ff68e418fa7d4173bd0a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffbb00d3ed703c7ebbe90f3ecc3891a') in 0.031586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00051.png
+  artifactKey: Guid(88d006c806d41c54ab3e423ff5266797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00051.png using Guid(88d006c806d41c54ab3e423ff5266797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4e43976d562bdb6c5685c2db8724f5') in 0.021782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00020.png
+  artifactKey: Guid(deafaf550e6072841bd1567fc1cdc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00020.png using Guid(deafaf550e6072841bd1567fc1cdc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b455adbbbc55f01a7c992734c23bce') in 0.030049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00046.png
+  artifactKey: Guid(5ddb0bc5ff095ff4888b4779b6c559c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00046.png using Guid(5ddb0bc5ff095ff4888b4779b6c559c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8879c097d99762938998c72d9063944') in 0.042973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.497621 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00057.png
+  artifactKey: Guid(8704cb8c5ad26e14e9c1091612c487b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00057.png using Guid(8704cb8c5ad26e14e9c1091612c487b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a46ec2ca338086a0d5ca5dee61456') in 0.030336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00079.png
+  artifactKey: Guid(50e75d079d706374ea03858ee321fd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00079.png using Guid(50e75d079d706374ea03858ee321fd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a7e069d4534e92e22c368e4414a37e') in 0.070722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00090.png
+  artifactKey: Guid(3ecb91259b21384409bc51dd2e4265cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00090.png using Guid(3ecb91259b21384409bc51dd2e4265cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9594db508895ec01d39427d49538acc0') in 0.028010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00104.png
+  artifactKey: Guid(7fe558a9fa5a5194a971f1a921ff4467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00104.png using Guid(7fe558a9fa5a5194a971f1a921ff4467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55da06824303ed003e14c5dbf2384ed6') in 0.032112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00082.png
+  artifactKey: Guid(1493faaba254ce84a8fe763fc91824df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00082.png using Guid(1493faaba254ce84a8fe763fc91824df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2831e231c5978dfcff06ff5c80b4834') in 0.024715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00115.png
+  artifactKey: Guid(5fd313d353b84eb4b8afcce3d8543938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00115.png using Guid(5fd313d353b84eb4b8afcce3d8543938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de711f6dbabdc82aef29ca48bb65bf39') in 0.027842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00072.png
+  artifactKey: Guid(b7f5c74e9f3dc2d45ad613d326e75a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00072.png using Guid(b7f5c74e9f3dc2d45ad613d326e75a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806a69896be1c237cfb291d115707b3e') in 0.025472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00116.png
+  artifactKey: Guid(4953c7e7ed2e5254586a0e2ba12fc0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00116.png using Guid(4953c7e7ed2e5254586a0e2ba12fc0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a36b0f756a772c42cdd961c580c0d5') in 0.036656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00142.png
+  artifactKey: Guid(5ea77f2ab3abc6d4fa86c36d17a5fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00142.png using Guid(5ea77f2ab3abc6d4fa86c36d17a5fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8de2acedd1cd32177dfc61bc6cd0f1') in 0.024852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00121.png
+  artifactKey: Guid(79d417d85df6c80419952f1e6983f7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00121.png using Guid(79d417d85df6c80419952f1e6983f7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cebe9fa20837d653a6bb02017a16a74') in 0.025724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00148.png
+  artifactKey: Guid(39f21a51be57ceb48b12475a4dfbd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00148.png using Guid(39f21a51be57ceb48b12475a4dfbd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea67bb98825b9203a315b307fbb660eb') in 0.023123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00083.png
+  artifactKey: Guid(131792fe94a72484a96477e8bd85a5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00083.png using Guid(131792fe94a72484a96477e8bd85a5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3261b4db6e5d745ba2740d5b81232b60') in 0.038452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00137.png
+  artifactKey: Guid(91732a984dd82c94ca70de44d449eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00137.png using Guid(91732a984dd82c94ca70de44d449eba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e499fcdeb84cea9438e809058e45244d') in 0.035636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00144.png
+  artifactKey: Guid(21d362e75e2d6d148a30e8cac6931929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00144.png using Guid(21d362e75e2d6d148a30e8cac6931929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77094866600b51e26d57345867153e0c') in 0.023385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00086.png
+  artifactKey: Guid(efdfaf4d252199244b9967451e87f826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00086.png using Guid(efdfaf4d252199244b9967451e87f826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836f28e4a08331dc44ffb23bd5e3f470') in 0.029305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00150.png
+  artifactKey: Guid(e7de9b570240eed4aa54861e15658763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00150.png using Guid(e7de9b570240eed4aa54861e15658763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea244f169f0addb82c405de35a971201') in 0.026444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00097.png
+  artifactKey: Guid(f2c7162dd31a9ee4fa14bb5eec312cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00097.png using Guid(f2c7162dd31a9ee4fa14bb5eec312cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd064906a1fcb21f2b3c9155b0542de') in 0.024434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00123.png
+  artifactKey: Guid(9f019899c8b574f4ca94f5766e753566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00123.png using Guid(9f019899c8b574f4ca94f5766e753566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef5e77b58bfb57cbbab6b836d4b0139') in 0.032569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00120.png
+  artifactKey: Guid(653ac0783b75af142a3df8a2dfe37704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00120.png using Guid(653ac0783b75af142a3df8a2dfe37704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce326fe399945e243ff7a31348174b8') in 0.025133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00125.png
+  artifactKey: Guid(54c1b5e329f764449808efa3c9ebb7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00125.png using Guid(54c1b5e329f764449808efa3c9ebb7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608a7c14dc7176c73600f9d918cba8c3') in 0.021409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00131.png
+  artifactKey: Guid(251a7230a93749b46bc31fa39c2d399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00131.png using Guid(251a7230a93749b46bc31fa39c2d399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c3fecb9082e30a6cad6c83763f4b6') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00092.png
+  artifactKey: Guid(8843212cf5b2f05489047fef7804d639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00092.png using Guid(8843212cf5b2f05489047fef7804d639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286aa4c6c56ec2a8b49f0c77aecd2a07') in 0.022906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00134.png
+  artifactKey: Guid(e9a9f77fe1251dc46944db345d5c22b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00134.png using Guid(e9a9f77fe1251dc46944db345d5c22b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8cfc1217fa5d295ed6a454f8935391') in 0.024490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00136.png
+  artifactKey: Guid(c3f7147282cb1634cac2995cdf04c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00136.png using Guid(c3f7147282cb1634cac2995cdf04c4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01831d35f3b49d5cacf4bcf2672bf8e6') in 0.033072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00122.png
+  artifactKey: Guid(ac105f3a5491e5049806476162492a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00122.png using Guid(ac105f3a5491e5049806476162492a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5488ec64029194e88ce5f1df3d743833') in 0.024033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00063.png
+  artifactKey: Guid(d4f088c5959491749a83e9b4d3b58a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00063.png using Guid(d4f088c5959491749a83e9b4d3b58a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780ae50b3dcf0957b17ba6b45c6f7bc') in 0.030764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00073.png
+  artifactKey: Guid(0ed74fc592e93ed4693f87c28161999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00073.png using Guid(0ed74fc592e93ed4693f87c28161999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b96b48f80ece3feb44bf161bf63fe6') in 0.035816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00147.png
+  artifactKey: Guid(0584b5d2951dbf54b88b66ef4b7338de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00147.png using Guid(0584b5d2951dbf54b88b66ef4b7338de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7a18e5b5299366717c8953ac7d6a4b') in 0.027444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00132.png
+  artifactKey: Guid(aecd222920d398d429181d080a054ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00132.png using Guid(aecd222920d398d429181d080a054ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1807a392162517683abc94e985dd7092') in 0.020348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00139.png
+  artifactKey: Guid(8ae7fb799a558f84a8386c59306b2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00139.png using Guid(8ae7fb799a558f84a8386c59306b2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8226c4bfa45bcfd9f38e1d10092af7fd') in 0.038801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00080.png
+  artifactKey: Guid(05bb88027d19be04e86c8562ed4a341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00080.png using Guid(05bb88027d19be04e86c8562ed4a341f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593512b47de7f24700ada7ad376d6ed3') in 0.035591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00103.png
+  artifactKey: Guid(8c58a19e3fe75914ca6ef04b2406275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00103.png using Guid(8c58a19e3fe75914ca6ef04b2406275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689859bcea719c9bf2bf4dee72567f2c') in 0.023399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00064.png
+  artifactKey: Guid(a450a3360477b6945a6f8070ed344a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00064.png using Guid(a450a3360477b6945a6f8070ed344a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9f712d8c154eaaf2f7b9dcb63b916b') in 0.028831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001006 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00089.png
+  artifactKey: Guid(051ac386e5edd654e90eee7c3d843c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00089.png using Guid(051ac386e5edd654e90eee7c3d843c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a874c017b07fb27757638322e487c6') in 0.027525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00087.png
+  artifactKey: Guid(6018dc89cb513fb4cb408820c59a9dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00087.png using Guid(6018dc89cb513fb4cb408820c59a9dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fe9b2d18e181e7385723c932a9531f') in 0.034032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00107.png
+  artifactKey: Guid(de72a49666bdc5446864b0f7c20cf873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00107.png using Guid(de72a49666bdc5446864b0f7c20cf873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd22c86059c3f51fc38efeb754318b2') in 0.029222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00141.png
+  artifactKey: Guid(c3b1a0d58d4928c4e9eb4ddfafcb1249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00141.png using Guid(c3b1a0d58d4928c4e9eb4ddfafcb1249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e4424bf4997b71013908a2bb7cae3') in 0.030049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00143.png
+  artifactKey: Guid(11aef16ca7b7c9c4fab03006e2a92dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00143.png using Guid(11aef16ca7b7c9c4fab03006e2a92dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c185cd3f8a269b4407c84cf1bd13cf69') in 0.018299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001843 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00098.png
+  artifactKey: Guid(42f255abe442c914a9a7f140d6f3c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00098.png using Guid(42f255abe442c914a9a7f140d6f3c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0428bbf547cbdf54df106f16b18995e7') in 0.020474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00112.png
+  artifactKey: Guid(8658f3db9ae46874bbd2428bec60d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00112.png using Guid(8658f3db9ae46874bbd2428bec60d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feee29060b74e911da58bd448720fcfe') in 0.031921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001445 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00100.png
+  artifactKey: Guid(56ed699f140073342b954f4068e07e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00100.png using Guid(56ed699f140073342b954f4068e07e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbdedb5010f26a93335b25c7cd98e6f') in 0.018026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00109.png
+  artifactKey: Guid(11e7e955f579d664f8c2198493414ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00109.png using Guid(11e7e955f579d664f8c2198493414ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab65ed972dd9d5429687f9ff39abb81f') in 0.030147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00085.png
+  artifactKey: Guid(d6e1a063c7cc3c44284e2a1b0f45f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00085.png using Guid(d6e1a063c7cc3c44284e2a1b0f45f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856d8cc7e88294c9381150c988a2c208') in 0.029381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00101.png
+  artifactKey: Guid(57681dccca738ce4cb0bf69f76fa5052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00101.png using Guid(57681dccca738ce4cb0bf69f76fa5052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3bc761a83360f3d94d7fb6cb9fd3ab') in 0.036720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00149.png
+  artifactKey: Guid(0e99459df69d83d41b1b4c5d15e53f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00149.png using Guid(0e99459df69d83d41b1b4c5d15e53f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4596d52b4d7f37249ef813f17a8ca00') in 0.026457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00059.png
+  artifactKey: Guid(9f8c344fd4344444c9fd949ce149fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00059.png using Guid(9f8c344fd4344444c9fd949ce149fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93735b4fbefa45c9c2813b34fd78c528') in 0.022029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00058.png
+  artifactKey: Guid(194033ddd8007284db59929df3eae1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00058.png using Guid(194033ddd8007284db59929df3eae1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807cf7d53f1636370e77022a34d8641a') in 0.022631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.579474 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00002.png
+  artifactKey: Guid(ad840432c1ceee54084289b3dc7e0740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00002.png using Guid(ad840432c1ceee54084289b3dc7e0740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e414b7ee7f67718ecd2f0cc1efa6964f') in 0.113257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00021.png
+  artifactKey: Guid(8f18c76487b22eb4b96770ce751ba1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00021.png using Guid(8f18c76487b22eb4b96770ce751ba1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0991e467f64cd6554cbb4e312ee792d8') in 0.097846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00026.png
+  artifactKey: Guid(1e637208a50947a49a80a5e878222d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00026.png using Guid(1e637208a50947a49a80a5e878222d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8543c450c9a2b29c13a643b2a869da45') in 0.080450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00011.png
+  artifactKey: Guid(998597b28e9978b43a5afc6ff852f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00011.png using Guid(998597b28e9978b43a5afc6ff852f774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63513c13e9402a43c78a13f4a3f7ecf4') in 0.092168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00009.png
+  artifactKey: Guid(177baaced523c1548a64fe15bcad3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00009.png using Guid(177baaced523c1548a64fe15bcad3ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645f99f29ae2dd1bb9a509818d2645f7') in 0.093699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00023.png
+  artifactKey: Guid(330644ffe32ac744ea48503ae883c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00023.png using Guid(330644ffe32ac744ea48503ae883c62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798323e28316522ccb6dd856461bac51') in 0.085156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00056.png
+  artifactKey: Guid(bbc34f1e284cdc74eb4415afc68ef358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00056.png using Guid(bbc34f1e284cdc74eb4415afc68ef358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c25d790a29ca214f00fe63f6dc18e8d') in 0.078166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00008.png
+  artifactKey: Guid(e7c703f1519f64740a6bf999f36d9c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00008.png using Guid(e7c703f1519f64740a6bf999f36d9c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5266ba31f8c1e70f7c174927657c14') in 0.068442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00028.png
+  artifactKey: Guid(eff3dea0051353a4da338be4f7168cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00028.png using Guid(eff3dea0051353a4da338be4f7168cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d06db7ec3780361382d352122a679') in 0.090966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00003.png
+  artifactKey: Guid(d832afdb93b02394e9876ffdba1de4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00003.png using Guid(d832afdb93b02394e9876ffdba1de4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6224c0cb681431b441621558c3cf14a0') in 0.150315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00025.png
+  artifactKey: Guid(af0e1ce9231a1fe4b830abbff1a7e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00025.png using Guid(af0e1ce9231a1fe4b830abbff1a7e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b8cb8d5327cad1d56236fe71a837bd') in 0.107137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00029.png
+  artifactKey: Guid(d5afbca5b6c91af49945bed03b58966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00029.png using Guid(d5afbca5b6c91af49945bed03b58966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de04741fbff2c0edc7c8ba40b5714188') in 0.109587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00005.png
+  artifactKey: Guid(4485be47f70c6934ebaca99f397debfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00005.png using Guid(4485be47f70c6934ebaca99f397debfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a595fae68edce9e018ad196ce20c9855') in 0.080445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00020.png
+  artifactKey: Guid(deafaf550e6072841bd1567fc1cdc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00020.png using Guid(deafaf550e6072841bd1567fc1cdc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d512fe3c059fd68fc084ccac0a83321') in 0.069637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00039.png
+  artifactKey: Guid(65542926b08cfe741b06019cbf542a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00039.png using Guid(65542926b08cfe741b06019cbf542a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a99e81bd1caa221eea9614aa1b73bc4') in 0.069107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00066.png
+  artifactKey: Guid(61c16bd4c4b053449b78283e8f3c20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00066.png using Guid(61c16bd4c4b053449b78283e8f3c20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4cc068ff38550b82963c7f437907b3') in 0.103924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00065.png
+  artifactKey: Guid(3b1a1024726cd5c42bce686d616914e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00065.png using Guid(3b1a1024726cd5c42bce686d616914e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868d9ad5bc9b6ba4e40db251ec58dd3d') in 0.087004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005331 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00037.png
+  artifactKey: Guid(cac565ed085551f41b8627a1c3a747a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00037.png using Guid(cac565ed085551f41b8627a1c3a747a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8fe14bcfcf7f44362ef89158b1765b') in 0.094989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003519 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00033.png
+  artifactKey: Guid(391118d0a62693146a8899112d05e092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00033.png using Guid(391118d0a62693146a8899112d05e092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403838a459f68faf74389ed5c5c4d356') in 0.097161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00047.png
+  artifactKey: Guid(3ad212282ec7050439f5f445c8814a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00047.png using Guid(3ad212282ec7050439f5f445c8814a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b3c2ec0f6d98b4eab4bf8865829169') in 0.109065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00007.png
+  artifactKey: Guid(ab7d7dd5cb084e84298f4b12b1babf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00007.png using Guid(ab7d7dd5cb084e84298f4b12b1babf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e434a5a5f4b1c583f9cad77ddace55') in 0.083393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00049.png
+  artifactKey: Guid(2ba58141a475d3e43802d60988364504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00049.png using Guid(2ba58141a475d3e43802d60988364504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664c2cf2d505a63d3e6cc7bcffe671b6') in 0.072899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001148 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00036.png
+  artifactKey: Guid(866d2e4948cf2ee4e9fa36f7ebd3c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00036.png using Guid(866d2e4948cf2ee4e9fa36f7ebd3c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f510b88dd56c6a8d730425b1a655033b') in 0.074711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00041.png
+  artifactKey: Guid(011ca48c6a879034a8a923f3a8da2114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00041.png using Guid(011ca48c6a879034a8a923f3a8da2114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974377c0e40743824e222bfd7973a047') in 0.083048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002984 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00051.png
+  artifactKey: Guid(88d006c806d41c54ab3e423ff5266797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00051.png using Guid(88d006c806d41c54ab3e423ff5266797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781d852f9bd1ec138de6f7574804a94a') in 0.106471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00058.png
+  artifactKey: Guid(194033ddd8007284db59929df3eae1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00058.png using Guid(194033ddd8007284db59929df3eae1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1d0f2fd7d3bc027d4ac380b5aab64e') in 0.072528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.230205 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00074.png
+  artifactKey: Guid(75510cfe4324f834b8740e6823a361f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00074.png using Guid(75510cfe4324f834b8740e6823a361f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0baf3ba1f0fd769cc7f905253f687e29') in 0.095863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00091.png
+  artifactKey: Guid(ea9820fa280e4b149984191ddeeececb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00091.png using Guid(ea9820fa280e4b149984191ddeeececb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61df3272e5fe97e1d1e2fe4ae18934d2') in 0.109775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00082.png
+  artifactKey: Guid(1493faaba254ce84a8fe763fc91824df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00082.png using Guid(1493faaba254ce84a8fe763fc91824df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55eca813f3eb6a1c18670012064de77') in 0.084433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00115.png
+  artifactKey: Guid(5fd313d353b84eb4b8afcce3d8543938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00115.png using Guid(5fd313d353b84eb4b8afcce3d8543938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c156f01a7489060d28eb0e1735ea398') in 0.083221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00099.png
+  artifactKey: Guid(92851420a089e5649897a0f9ff3e8fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00099.png using Guid(92851420a089e5649897a0f9ff3e8fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb6251104aabdd968b4861ead3a36b') in 0.092258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00078.png
+  artifactKey: Guid(e55c1e76010e99a409690c034521a216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00078.png using Guid(e55c1e76010e99a409690c034521a216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f79acd8418d8a746eed309a287d9a0') in 0.091109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00148.png
+  artifactKey: Guid(39f21a51be57ceb48b12475a4dfbd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00148.png using Guid(39f21a51be57ceb48b12475a4dfbd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c66e6821c53b85e44c98b0c6a97278') in 0.106322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00135.png
+  artifactKey: Guid(8c024d7a7788cd944b6b67e98bc003c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00135.png using Guid(8c024d7a7788cd944b6b67e98bc003c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971ee08dba3e511e6e2a910baa3a688b') in 0.083514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00086.png
+  artifactKey: Guid(efdfaf4d252199244b9967451e87f826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00086.png using Guid(efdfaf4d252199244b9967451e87f826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4bfdbd3b599d9f0ac1c1372885dd88') in 0.093580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00097.png
+  artifactKey: Guid(f2c7162dd31a9ee4fa14bb5eec312cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00097.png using Guid(f2c7162dd31a9ee4fa14bb5eec312cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ba49906d6897768d65d2ec8e0813d0') in 0.153272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00126.png
+  artifactKey: Guid(1218fe6bb3833be498c4ef94eaac5834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00126.png using Guid(1218fe6bb3833be498c4ef94eaac5834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02029ec31a9bdbc4789e009601d7618b') in 0.085808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00131.png
+  artifactKey: Guid(251a7230a93749b46bc31fa39c2d399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00131.png using Guid(251a7230a93749b46bc31fa39c2d399a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d234780107015c55f1f3cca761713f3') in 0.073403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00138.png
+  artifactKey: Guid(dc18f0d43b6f4534187e48ec584e1a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00138.png using Guid(dc18f0d43b6f4534187e48ec584e1a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed65757bacc0e7d1cfada3f23ad9dce') in 0.097958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00134.png
+  artifactKey: Guid(e9a9f77fe1251dc46944db345d5c22b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00134.png using Guid(e9a9f77fe1251dc46944db345d5c22b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e835e1fddef08563becd66049714fd') in 0.083537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00122.png
+  artifactKey: Guid(ac105f3a5491e5049806476162492a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00122.png using Guid(ac105f3a5491e5049806476162492a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91beeda179e6e587d1bb15d0f84af167') in 0.079357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00147.png
+  artifactKey: Guid(0584b5d2951dbf54b88b66ef4b7338de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00147.png using Guid(0584b5d2951dbf54b88b66ef4b7338de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c419be776d1895a158554b0b2c4669') in 0.088789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00088.png
+  artifactKey: Guid(a57afb9a5e1d75043bb1bdc4708e5df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00088.png using Guid(a57afb9a5e1d75043bb1bdc4708e5df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e01d74201c21ec1dfcd5dc678bd228') in 0.098137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00093.png
+  artifactKey: Guid(a4796cb17c2563f45b675846aa4f2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00093.png using Guid(a4796cb17c2563f45b675846aa4f2671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039b5d6a049134a0acab4562cb4f8378') in 0.119207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00084.png
+  artifactKey: Guid(9a297fc5bee9c4444b7391c1b06c5b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00084.png using Guid(9a297fc5bee9c4444b7391c1b06c5b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850527dee9e79e552c09dfd8b243b8e4') in 0.117375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00146.png
+  artifactKey: Guid(f5703932ea768f94ea1796f6dd795fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00146.png using Guid(f5703932ea768f94ea1796f6dd795fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024a1bcb5c386462e96ddbb774074ad9') in 0.101834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00081.png
+  artifactKey: Guid(02b6c83914f10ac4cb6181572843aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00081.png using Guid(02b6c83914f10ac4cb6181572843aeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89de9947448382c1fc44b228a40bf2b6') in 0.147184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00098.png
+  artifactKey: Guid(42f255abe442c914a9a7f140d6f3c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00098.png using Guid(42f255abe442c914a9a7f140d6f3c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eea43870e143f8954342c5b847f9c6') in 0.086200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00124.png
+  artifactKey: Guid(62fa089e0e470184691d81f7dc69f6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00124.png using Guid(62fa089e0e470184691d81f7dc69f6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08be4a10407b278a92e8baf4cf4656e7') in 0.084120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00109.png
+  artifactKey: Guid(11e7e955f579d664f8c2198493414ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00109.png using Guid(11e7e955f579d664f8c2198493414ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f10f1eda5c17b38a74a017c46e84273') in 0.082163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00106.png
+  artifactKey: Guid(4950609d70d71134a8d6f4c766359e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00106.png using Guid(4950609d70d71134a8d6f4c766359e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f565ee1380fdca7940b07ef510f8de') in 0.087022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/raizes/char/cemneuralevel1_00128.png
+  artifactKey: Guid(ce0e5b7c32737a0499cc42df8227f8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/cemneuralevel1_00128.png using Guid(ce0e5b7c32737a0499cc42df8227f8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae062da05758a9f1b5c25262dd45d1c') in 0.093374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.189099 seconds.
+  path: Assets/raizes/char/gengibre_00002.png
+  artifactKey: Guid(4ddd616d7ae2c074cbf548c17f698c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00002.png using Guid(4ddd616d7ae2c074cbf548c17f698c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8407fe423630143550b6800deebaf5') in 0.094190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/raizes/char/gengibre_00018.png
+  artifactKey: Guid(a8a550aeb34a0674d82681901be4d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00018.png using Guid(a8a550aeb34a0674d82681901be4d5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7df3ba8cdace34a9d5428dafcf077a') in 0.050321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/raizes/char/gengibre_00005.png
+  artifactKey: Guid(62ff0e52b07e3e94383fbdc293edcd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00005.png using Guid(62ff0e52b07e3e94383fbdc293edcd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66aaba65bef2543741b8f7ca5f36ba4') in 0.057924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/raizes/char/gengibre_00012.png
+  artifactKey: Guid(603419ae5a81a3949b46a741a77e82e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00012.png using Guid(603419ae5a81a3949b46a741a77e82e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778a6083c371b4737f22be3a6d04df11') in 0.027313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/raizes/char/gengibre_00010.png
+  artifactKey: Guid(28c902d0c80b84a43be23a67bf6f8735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00010.png using Guid(28c902d0c80b84a43be23a67bf6f8735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bbd4068e2355e2a4d28507a4959e50') in 0.032176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/raizes/char/gengibre_00008.png
+  artifactKey: Guid(27dbd0116d87d454686c07ac2dbc2e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00008.png using Guid(27dbd0116d87d454686c07ac2dbc2e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe49b591caae07c7279b99298b5034df') in 0.103198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/raizes/char/gengibre_00021.png
+  artifactKey: Guid(eb504996a8e43da469628bfc0fa41c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00021.png using Guid(eb504996a8e43da469628bfc0fa41c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8442d300d32f4d2874caaeb06a3b6') in 0.019931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/raizes/char/gengibre_00028.png
+  artifactKey: Guid(dba335edb4fb50a43a8d5a956f5a3c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00028.png using Guid(dba335edb4fb50a43a8d5a956f5a3c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bfb4c0baf58353e6ac2704085d8e65') in 0.023242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001089 seconds.
+  path: Assets/raizes/char/gengibre_00022.png
+  artifactKey: Guid(25e4bb41b132b2f4696337d01e282e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00022.png using Guid(25e4bb41b132b2f4696337d01e282e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7f01e14dc2c835fe0523f296a15d39') in 0.043962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/raizes/char/gengibre_00023.png
+  artifactKey: Guid(ed5785d7cff3b264e8e4d050c729185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00023.png using Guid(ed5785d7cff3b264e8e4d050c729185d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c90c33b40e72d062cce198a0b559d') in 0.055586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/raizes/char/gengibre_00009.png
+  artifactKey: Guid(d995076cce8479e49b9d24380306d8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00009.png using Guid(d995076cce8479e49b9d24380306d8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d77af343cf55692d25679040c67509f') in 0.036005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.794404 seconds.
+  path: Assets/raizes/char/gengibre_00032.png
+  artifactKey: Guid(ef50b4733d50cc941a513ca6d2f19eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00032.png using Guid(ef50b4733d50cc941a513ca6d2f19eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731c44dfb80648ae6113985ad1c785a9') in 0.036920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001077 seconds.
+  path: Assets/raizes/char/gengibre_00042.png
+  artifactKey: Guid(e531ef05fa6d74e49b3f6cf4a28ec487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00042.png using Guid(e531ef05fa6d74e49b3f6cf4a28ec487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb6026ee124e07150b16cf204e65f40') in 0.040972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006875 seconds.
+  path: Assets/raizes/char/gengibre_00052.png
+  artifactKey: Guid(f45dc14dc2079f44895fe9d9a2c574ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00052.png using Guid(f45dc14dc2079f44895fe9d9a2c574ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afbe54d90e5d605fbc075ef032bbc51') in 0.024802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001690 seconds.
+  path: Assets/raizes/char/gengibre_00060.png
+  artifactKey: Guid(0d46dd500a55a974e919451ce2838d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00060.png using Guid(0d46dd500a55a974e919451ce2838d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c34772894b5df3fb8d274e2821ad489') in 0.025726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001828 seconds.
+  path: Assets/raizes/char/gengibre_00044.png
+  artifactKey: Guid(745d34be9f05f8346907d111dfb1b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00044.png using Guid(745d34be9f05f8346907d111dfb1b860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2a07f43559b50b14d380b768c298a7') in 0.047663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/raizes/char/gengibre_00058.png
+  artifactKey: Guid(fae1ba5d6e8c3094caab26171f22b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00058.png using Guid(fae1ba5d6e8c3094caab26171f22b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce0ca975e5eb6519c58532126a2d697') in 0.029292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/raizes/char/gengibre_00040.png
+  artifactKey: Guid(083cffe092defb54a85011430e0e76ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00040.png using Guid(083cffe092defb54a85011430e0e76ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0989d2a72427566e7d360fe3663aabc') in 0.026992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/raizes/char/gengibre_00034.png
+  artifactKey: Guid(1427840b47e85504da9fa45362dca544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00034.png using Guid(1427840b47e85504da9fa45362dca544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7634a9309b8b50b6555d12de1e98f156') in 0.032108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/raizes/char/gengibre_00033.png
+  artifactKey: Guid(c2f00061a3507224a89c1112fc9ab71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00033.png using Guid(c2f00061a3507224a89c1112fc9ab71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb717ce7259580e930eba2bd907ed59') in 0.023778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/raizes/char/gengibre_00054.png
+  artifactKey: Guid(a4a48fd425289a644ad616392e20d28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00054.png using Guid(a4a48fd425289a644ad616392e20d28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd420030734fcb6877209b0110148d') in 0.030394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/raizes/char/gengibre_00057.png
+  artifactKey: Guid(bc2f4d0dbd07bc54bba4f53000082982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00057.png using Guid(bc2f4d0dbd07bc54bba4f53000082982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f46e73d26954c2147e82d48a855e679') in 0.025927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.467745 seconds.
+  path: Assets/raizes/char/gengibre_00031.png
+  artifactKey: Guid(81d6673166ea9524798a0afffa7e2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00031.png using Guid(81d6673166ea9524798a0afffa7e2245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae47db3b088715bb7fc78c82fa0ae774') in 0.076965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006286 seconds.
+  path: Assets/raizes/char/gengibre_00042.png
+  artifactKey: Guid(e531ef05fa6d74e49b3f6cf4a28ec487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00042.png using Guid(e531ef05fa6d74e49b3f6cf4a28ec487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab97ddce49394a82c00fd3d89044c95b') in 0.200491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014104 seconds.
+  path: Assets/raizes/char/gengibre_00053.png
+  artifactKey: Guid(8c1bc91987c3c8d44bb298f7507c4ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00053.png using Guid(8c1bc91987c3c8d44bb298f7507c4ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d1dcfe734b1c5cbd92c177f9abd02e') in 0.054700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/raizes/char/gengibre_00047.png
+  artifactKey: Guid(29f23b56261bd744c89571ffaeb3a55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00047.png using Guid(29f23b56261bd744c89571ffaeb3a55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2653d6e4d392e714a7c5d65790666a0') in 0.056790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/raizes/char/gengibre_00037.png
+  artifactKey: Guid(64ab2400094ae2547ae66fdb0af37904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00037.png using Guid(64ab2400094ae2547ae66fdb0af37904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60602e266977e431744657a249c5d36') in 0.057116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/raizes/char/gengibre_00036.png
+  artifactKey: Guid(2044b7636006c164385f34967d495934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00036.png using Guid(2044b7636006c164385f34967d495934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0206f3bedaa03f2e6d86f3d7ca7bda63') in 0.048809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/raizes/char/gengibre_00058.png
+  artifactKey: Guid(fae1ba5d6e8c3094caab26171f22b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00058.png using Guid(fae1ba5d6e8c3094caab26171f22b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffdfe908d7199ece0d5554ad536bd1c') in 0.064493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/raizes/char/gengibre_00040.png
+  artifactKey: Guid(083cffe092defb54a85011430e0e76ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00040.png using Guid(083cffe092defb54a85011430e0e76ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d59d18af320fcf4a6ca57e15d576d2') in 0.055952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/raizes/char/gengibre_00015.png
+  artifactKey: Guid(1d647c4df87f918448809d442261ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00015.png using Guid(1d647c4df87f918448809d442261ce37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f93c2210e2b0b203c1a44282de19675') in 0.078202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/raizes/char/gengibre_00014.png
+  artifactKey: Guid(b7021919638a30443b1ab102b2dd7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00014.png using Guid(b7021919638a30443b1ab102b2dd7661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd52af9bafcff78fe5a852471ec8179') in 0.050779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/raizes/char/gengibre_00019.png
+  artifactKey: Guid(310fabaafe5aa694d96306c5e094e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00019.png using Guid(310fabaafe5aa694d96306c5e094e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19575a58aaaa9b35e972c55465174c25') in 0.066380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004742 seconds.
+  path: Assets/raizes/char/gengibre_00025.png
+  artifactKey: Guid(ce0e7d71283535d4681a1808a844e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00025.png using Guid(ce0e7d71283535d4681a1808a844e464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9488b8f17d1eaf4a52e081158e2c82a') in 0.083146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/raizes/char/gengibre_00054.png
+  artifactKey: Guid(a4a48fd425289a644ad616392e20d28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00054.png using Guid(a4a48fd425289a644ad616392e20d28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe1fdf07ba159fd0d9a6d255b58a284') in 0.112506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/raizes/char/gengibre_00007.png
+  artifactKey: Guid(cc3e4e0977cbd354fab38161f5e193bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00007.png using Guid(cc3e4e0977cbd354fab38161f5e193bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7814e6f679b701c38f14134674941509') in 0.056927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/raizes/char/gengibre_00004.png
+  artifactKey: Guid(3380c65be9310ed44993dfa4a1c749b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00004.png using Guid(3380c65be9310ed44993dfa4a1c749b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94512eaeaae225b405d74589653c4f08') in 0.048721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/raizes/char/gengibre_00012.png
+  artifactKey: Guid(603419ae5a81a3949b46a741a77e82e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00012.png using Guid(603419ae5a81a3949b46a741a77e82e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d878ffa46aaa024a2eac12cbebd8495') in 0.066571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/raizes/char/gengibre_00000.png
+  artifactKey: Guid(3e67e5aa9b1f31741b26e84520b0b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00000.png using Guid(3e67e5aa9b1f31741b26e84520b0b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa517da5750a382ba48d84afb1d74a2e') in 0.078323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/raizes/char/gengibre_00035.png
+  artifactKey: Guid(b58ba9466fcdd38498f0c1976abbbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00035.png using Guid(b58ba9466fcdd38498f0c1976abbbf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e51194778a44a7d78c5f7815c08775') in 0.053817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/raizes/char/gengibre_00057.png
+  artifactKey: Guid(bc2f4d0dbd07bc54bba4f53000082982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00057.png using Guid(bc2f4d0dbd07bc54bba4f53000082982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20c1b29958e2684a2bfe42183a11e61') in 0.056156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/raizes/char/gengibre_00026.png
+  artifactKey: Guid(e98e7fc7058bdbb46b515aef8dd2cff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/raizes/char/gengibre_00026.png using Guid(e98e7fc7058bdbb46b515aef8dd2cff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35c4786b64ac6a9ce2555413ad28888') in 0.060534 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
