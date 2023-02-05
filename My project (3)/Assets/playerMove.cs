@@ -17,7 +17,9 @@ public class playerMove : MonoBehaviour
     public float  movimentos = 0;
     public int imunity = 0;
     public int formiga = 0;
-    private int rootCounter = 2;
+    public int nuvem = 0;
+    public int rootCounter = 2;
+    public GameObject enemy = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -94,7 +96,16 @@ public class playerMove : MonoBehaviour
                 CurSpown.transform.Rotate(LastSpownd.transform.GetChild(1).transform.eulerAngles); 
                 CurSpown.transform.localScale += new Vector3(0,movimentos,0);
 
-            }          
+            }   
+            if(Input.GetKeyUp("joystick "+Player+" button 3") ){
+                if(nuvem ==1){
+                    enemy.GetComponent<playerMove>().movimentos = (float)-0.5;
+                    enemy.GetComponent<playerMove>().LogTerm = (float)4.0;
+                }
+                if(formiga ==1){
+                    enemy.GetComponent<playerMove>().Voltar(3) ;
+                }
+            }       
         }   
     }
 }
