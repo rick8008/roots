@@ -24,10 +24,39 @@ public class playerMove : MonoBehaviour
         LastSpownd = Node;
         CurSpown = Instantiate(Node, Roots.transform); 
         CurSpown.transform.position  = CurSpown.transform.position+ new Vector3(0,-1,0);
-        CurSpown.name = "Root"+rootCounter.ToString();
+        if(Player ==1){
+            CurSpown.name = "PO_Root"+rootCounter.ToString();
+        }else{
+            CurSpown.name = "PT_Root"+rootCounter.ToString();
+        }
+        
         turnState = 1;
     }
+    public void Voltar(int number){
+        
+        string name2 = CurSpown.name.Replace(rootCounter.ToString(),"")+((rootCounter-number));
+        int prenunber = 0;
+        do{
+           string name = CurSpown.name.Replace(rootCounter.ToString(),"")+((rootCounter-prenunber)); 
+            Destroy(GameObject.Find(name));
+           prenunber +=1;
+        }
+        while(prenunber <= number ); 
+        name2 = CurSpown.name.Replace(rootCounter.ToString(),"")+((rootCounter-number-1));
+        rootCounter = rootCounter-number;
+        LastSpownd = GameObject.Find(name2);
     
+        Destroy(CurSpown);
+        CurSpown = Instantiate(Node, Roots.transform); 
+            if(Player ==1){
+                CurSpown.name = "PO_Root"+rootCounter.ToString();
+            }else{
+                CurSpown.name = "PT_Root"+rootCounter.ToString();
+            }
+        CurSpown.transform.position  = LastSpownd.transform.GetChild(1).transform.position;
+        CurSpown.transform.Rotate(LastSpownd.transform.GetChild(1).transform.eulerAngles); 
+        //print();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -43,12 +72,9 @@ public class playerMove : MonoBehaviour
             float angle = Mathf.Atan2(horizontalInput, vertialInput) * Mathf.Rad2Deg; 
             CurSpown.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
            
-
-
-            //CurSpown.transform.Rotate(new Vector3( 0,0, ang)); 
             
             if(Input.GetKeyUp("joystick "+Player+" button 2") ){
-                if(LogTerm > 1){
+                if(LogTerm > 0){
                     LogTerm = LogTerm-1;
                 }
                 if(LogTerm ==0){
@@ -56,26 +82,20 @@ public class playerMove : MonoBehaviour
                 }
                 
                 rootCounter = rootCounter +1;
-                LastSpownd.GetComponent<Collider2D>().enabled = false;
-                LastSpownd = CurSpown ;
-                LastSpownd.GetComponent<Collider2D>().enabled = true;
+                LastSpownd = CurSpown;
                 LastSpownd.transform.localScale += new Vector3(0,movimentos,0);
                 CurSpown = Instantiate(Node, Roots.transform); 
-                CurSpown.name = "Root"+rootCounter;
+                    if(Player ==1){
+                        CurSpown.name = "PO_Root"+rootCounter.ToString();
+                    }else{
+                        CurSpown.name = "PT_Root"+rootCounter.ToString();
+                    }
                 CurSpown.transform.position  = LastSpownd.transform.GetChild(1).transform.position;
                 CurSpown.transform.Rotate(LastSpownd.transform.GetChild(1).transform.eulerAngles); 
-              
-                    
-                    
-                
-                
-            }
-            
-            
-           
-        }
-        
-        
+                CurSpown.transform.localScale += new Vector3(0,movimentos,0);
+
+            }          
+        }   
     }
 }
 
