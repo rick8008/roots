@@ -99,11 +99,22 @@ public class playerMove : MonoBehaviour
             }   
             if(Input.GetKeyUp("joystick "+Player+" button 3") ){
                 if(nuvem ==1){
-                    enemy.GetComponent<playerMove>().movimentos = (float)-0.5;
-                    enemy.GetComponent<playerMove>().LogTerm = (float)4.0;
+                    if(enemy.GetComponent<playerMove>().imunity ==0){
+                        enemy.GetComponent<playerMove>().movimentos = (float)-0.5;
+                        enemy.GetComponent<playerMove>().LogTerm = (float)4.0;
+                        nuvem =0;
+                    }else{
+                        enemy.GetComponent<playerMove>().imunity =0;
+                    }
+                   
                 }
                 if(formiga ==1){
-                    enemy.GetComponent<playerMove>().Voltar(3) ;
+                    if(enemy.GetComponent<playerMove>().imunity ==0){
+                        enemy.GetComponent<playerMove>().Voltar(3) ;
+                        formiga =0;
+                     }else{
+                        enemy.GetComponent<playerMove>().imunity =0;
+                    }
                 }
             }       
         }   
